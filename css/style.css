@@ -11,13 +11,16 @@ header {
 }
 
 .header-top {
+	display: flex;
+	justify-content: space-between;
 	padding: 4px 10px;
 	background: white;
-	opacity: 0.5;
+	opacity: 0.7;
 }
 
 .header-logo {
 	font-size: 1.5em;
+	font-style: italic;
 	color: #2196f3;
 }
 
@@ -25,11 +28,37 @@ main {
 	padding-top: 100px;
 }
 
+.add-channel {
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	padding-right: 20px;
+}
+
+.channel-link {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+.channel-link img {
+	width: 30px;
+	height: 30px;
+}
+
+.channel-link span {
+	font-size: 18px;
+	font-weight: bold;
+}
+
 .facility-info {
-	padding: 20px;
+	padding: 10px;
 }
 
 .facility-info h2 {
+	font-size: 2em;
 	text-align: center;
 }
 
